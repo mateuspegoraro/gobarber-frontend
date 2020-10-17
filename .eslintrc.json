@@ -39,7 +39,6 @@
       "prettier/prettier": "error",
       "camelcase": "off",
       "import/no-duplicates": "off",
-      "transformIgnorePatterns": "off",
       "import/extensions": [
         "error",
         "ignorePackages",
