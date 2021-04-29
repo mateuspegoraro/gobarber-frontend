@@ -10,7 +10,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      REACT_APP_API_URL: https://nodedeploy.mateuspegoraro.com/
     steps:
     - uses: actions/checkout@v2
 
