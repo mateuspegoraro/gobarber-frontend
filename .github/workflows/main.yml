@@ -6,12 +6,11 @@ on:
 
 env:
   BUCKET: reactsdeploygcs.mateuspegoraro.com
+  REACT_APP_API_URL: https://nodedeploy.mateuspegoraro.com/
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    env:
-      REACT_APP_API_URL: https://nodedeploy.mateuspegoraro.com/
+    runs-on: ubuntu-latest 
     steps:
     - uses: actions/checkout@v2
 
